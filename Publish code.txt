@@ -1,0 +1,24 @@
+#include <ESP8266WiFi.h>
+#include <WiFiClient.h> 
+#include <ESP8266WebServer.h>
+
+const char* ssid = "SQS";
+const char* password = "d0n773llN0On3";
+
+#define D1  16
+#define D2  5
+#define D3  4
+#define D4  0
+#define D5  2
+#define D6  14
+#define D7  12  
+#define D8  13
+// Create an instance of the server
+// specify the port to listen on as an argument
+ESP8266WebServer server(80);
+
+ String webPage = "";
+
+void setup() {
+  delay(1000);
+ 
